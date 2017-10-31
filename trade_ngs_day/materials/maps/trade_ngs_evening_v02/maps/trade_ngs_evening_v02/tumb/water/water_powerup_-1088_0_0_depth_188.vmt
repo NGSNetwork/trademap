@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/trade_ngs_evening_v02/tumb/water/water_powerup_-1088_0_0.vmt"
+	"insert"
+	{
+		"$waterdepth"		"188"
+	}
+}

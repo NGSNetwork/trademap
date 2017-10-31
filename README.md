@@ -1,0 +1,2 @@
+# NGS Trade Maps
+The maps for our trade server(s). We are aiming to have different day-night-cycle versions, as well as good performance when compared to other maps. Things should still look smooth and slick.

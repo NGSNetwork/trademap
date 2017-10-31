@@ -1,0 +1,113 @@
+"Water"
+{	
+	"%tooltexture" "dev/tfwater_normal"
+	"%compilewater" 1
+	"$abovewater" 1
+
+	"$envmap" "env_cubemap"	
+	"$refracttexture" "_rt_WaterRefraction"
+
+	"$refractamount" "0.6"
+
+	"$refracttint" "{167 211 211}"
+	"$refractblur" "0"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" ".1"
+	"$reflecttint" "{210 245 245}"
+	"$reflectsaturation" "[0 0 1]"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "water/dx80_tfwater001_dudv"
+	"$normalmap" "water/dx80_tfwater001_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "tumb/water/water_powerup_beneath.vmt"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{30 45 45}"
+	"$fogstart" "-200"
+	"$fogend" "800"
+
+	"$noise" "16"
+	"$noise2" "24"
+	 "$temp" "[0 0]"
+	 "$curr" 0.0
+	 "$curr2" 0.0
+
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 24.00
+		}
+
+		"GaussianNoise"
+		{
+			"mean" "16"
+			"halfWidth" "2"
+			"minVal" "12"
+			"maxVal" "20"
+			"resultVar" "$noise"
+		}
+		"GaussianNoise"
+		{
+			"mean" "24"
+			"halfWidth" "2"
+			"minVal" "20"
+			"maxVal" "28"
+			"resultVar" "$noise2"
+		}
+
+		"Sine"
+		{
+			"sineperiod" "$noise"
+			"sinemin" -0.5
+			"sinemax" 0.5
+			"resultVar" "$curr"
+		}
+		"Sine"
+		{
+			"sineperiod" "$noise2"
+			"sinemin" 0.5
+			"sinemax" -0.5
+			"resultVar" "$curr2"
+		}
+
+		"Equals"
+		{
+			"srcVar1" "$curr2"
+			"resultVar" "$temp[0]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$curr"
+			"resultVar" "$temp[1]"
+		}
+
+ 
+		"TextureTransform"
+		{
+			"translateVar" "$temp"
+			"resultVar" "$bumptransform"
+		}  
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" ".0625"
+			"texturescrollangle" "15"
+		}
+
+		"WaterLOD"
+		{
+			"dummy" 0
+		}
+	}
+}

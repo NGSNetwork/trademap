@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/TUMB/WATER/WATER_POWERUP.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/trade_ngs_evening_v02/c-8288_0_1024"
+		"Proxies"
+		{
+		}
+	}
+}
