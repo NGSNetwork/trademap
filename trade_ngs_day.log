@@ -1,0 +1,1595 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendgroundtograss007_nodetail_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendrockgroundwallforest_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 718 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (546106 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1096 texinfos to 741
+Reduced 135 texdatas to 118 (4885 bytes to 3995)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1503874, actual size 1494414
+9 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+1189 portalclusters
+3728 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 14525 visible clusters (1.25%)
+Total clusters visible: 1159280
+Average clusters visible: 975
+Building PAS...
+Average clusters audible: 1031
+visdatasize:348892  compressed from 361456
+writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+7059 faces
+2702415 square feet [389147840.00 square inches]
+430 Displacements
+203895 Square Feet [29360904.00 Square Inches]
+7059 patches before subdivision
+174905 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 33364130, max 1680
+transfer lists: 254.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1853395, 1496311, 1409451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(340426, 234358, 181862)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(94988, 56678, 37667)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(32355, 16133, 8965)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12911, 5426, 2526)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5646, 1974, 764)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2621, 760, 243)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1267, 305, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(628, 124, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(318, 52, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(163, 22, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(85, 10, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(44, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(23, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0635 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  71/1024         3408/49152    ( 6.9%) 
+brushes               1389/8192        16668/98304    (17.0%) 
+brushsides           16136/65536      129088/524288   (24.6%) 
+planes               14710/65536      294200/1310720  (22.4%) 
+vertexes             10682/65536      128184/786432   (16.3%) 
+nodes                 2611/65536       83552/2097152  ( 4.0%) 
+texinfos               741/12288       53352/884736   ( 6.0%) 
+texdata                118/2048         3776/65536    ( 5.8%) 
+dispinfos              430/0           75680/0        ( 0.0%) 
+disp_verts           11982/0          239640/0        ( 0.0%) 
+disp_tris            15872/0           31744/0        ( 0.0%) 
+disp_lmsamples      576192/0          576192/0        ( 0.0%) 
+faces                 7059/65536      395304/3670016  (10.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4033/65536      225848/3670016  ( 6.2%) 
+leaves                2683/65536       85856/2097152  ( 4.1%) 
+leaffaces            11229/65536       22458/131072   (17.1%) 
+leafbrushes           4545/65536        9090/131072   ( 6.9%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            48378/512000     193512/2048000  ( 9.4%) 
+edges                28668/256000     114672/1024000  (11.2%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            632/32768        6320/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9318/65536       18636/131072   (14.2%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7872252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      348892/16777216 ( 2.1%) 
+entdata               [variable]       97888/393216   (24.9%) 
+LDR ambient table     2683/65536       10732/262144   ( 4.1%) 
+HDR ambient table     2683/65536       10732/262144   ( 4.1%) 
+LDR leaf ambient     18547/65536      519316/1835008  (28.3%) 
+HDR leaf ambient      2683/65536       75124/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/46106    ( 0.0%) 
+pakfile               [variable]     1494414/0        ( 0.0%) 
+physics               [variable]      546106/4194304  (13.0%) 
+physics terrain       [variable]       97804/1048576  ( 9.3%) 
+
+Level flags = 0
+
+Total triangle count: 18001
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+2 minutes, 8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendgroundtograss007_nodetail_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendrockgroundwallforest_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (8232.00 -292.00 1760.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6432.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6816.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6272.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 4096.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7168.0 3584.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 4096.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (4608.0 4096.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6144.0 2560.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 730 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (550513 bytes)
+Static prop models/props_spytech/radio_tower_skybox001.mdl outside the map (8232.00, -292.00, 1760.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1186 texinfos to 763
+Reduced 142 texdatas to 123 (5005 bytes to 4062)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1397977, actual size 1388785
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+LoadPortals: couldn't read c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+No vis information, direct lighting only.
+7160 faces
+2424069 square feet [349066048.00 square inches]
+169 Displacements
+110179 Square Feet [15865836.00 Square Inches]
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0449 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  70/1024         3360/49152    ( 6.8%) 
+brushes               1402/8192        16824/98304    (17.1%) 
+brushsides           16215/65536      129720/524288   (24.7%) 
+planes               14766/65536      295320/1310720  (22.5%) 
+vertexes             11383/65536      136596/786432   (17.4%) 
+nodes                 3613/65536      115616/2097152  ( 5.5%) 
+texinfos               763/12288       54936/884736   ( 6.2%) 
+texdata                123/2048         3936/65536    ( 6.0%) 
+dispinfos              169/0           29744/0        ( 0.0%) 
+disp_verts            5457/0          109140/0        ( 0.0%) 
+disp_tris             7520/0           15040/0        ( 0.0%) 
+disp_lmsamples      298416/0          298416/0        ( 0.0%) 
+faces                 7160/65536      400960/3670016  (10.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3820/65536      213920/3670016  ( 5.8%) 
+leaves                3684/65536      117888/2097152  ( 5.6%) 
+leaffaces            11516/65536       23032/131072   (17.6%) 
+leafbrushes           4515/65536        9030/131072   ( 6.9%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            47783/512000     191132/2048000  ( 9.3%) 
+edges                28557/256000     114228/1024000  (11.2%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            616/32768        6160/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8907/65536       17814/131072   (13.6%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6791296/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       96195/393216   (24.5%) 
+LDR ambient table     3684/65536       14736/262144   ( 5.6%) 
+HDR ambient table     3684/65536       14736/262144   ( 5.6%) 
+LDR leaf ambient     27980/65536      783440/1835008  (42.7%) 
+HDR leaf ambient      3684/65536      103152/1835008  ( 5.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1564     ( 0.1%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/44418    ( 0.0%) 
+pakfile               [variable]     1388785/0        ( 0.0%) 
+physics               [variable]      550513/4194304  (13.1%) 
+physics terrain       [variable]       40837/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 18060
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+2 minutes, 36 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_brush (888.00 0.00 -32.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1432.0 437.5 1977.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2881: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2616.0 472.0 1954.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2881: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2616.0 364.7 2007.3)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2874: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2616.0 791.8 1702.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2888: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2616.0 711.7 1793.7)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2881: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3720.0 472.0 1954.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2881: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-3720.0 364.7 2007.3)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 2874: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1432.0 -472.0 1954.1)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 3117: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 730 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (444884 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1132 texinfos to 746
+Reduced 136 texdatas to 119 (4753 bytes to 3939)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1396799, actual size 1387875
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+LoadPortals: couldn't read c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+No vis information, direct lighting only.
+6720 faces
+2301220 square feet [331375680.00 square inches]
+22 Displacements
+54473 Square Feet [7844210.50 Square Inches]
+122 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0520 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  65/1024         3120/49152    ( 6.3%) 
+brushes               1133/8192        13596/98304    (13.8%) 
+brushsides            8885/65536       71080/524288   (13.6%) 
+planes                5266/65536      105320/1310720  ( 8.0%) 
+vertexes             10608/65536      127296/786432   (16.2%) 
+nodes                 3486/65536      111552/2097152  ( 5.3%) 
+texinfos               746/12288       53712/884736   ( 6.1%) 
+texdata                119/2048         3808/65536    ( 5.8%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples      135552/0          135552/0        ( 0.0%) 
+faces                 6720/65536      376320/3670016  (10.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3389/65536      189784/3670016  ( 5.2%) 
+leaves                3552/65536      113664/2097152  ( 5.4%) 
+leaffaces            11261/65536       22522/131072   (17.2%) 
+leafbrushes           4209/65536        8418/131072   ( 6.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            44323/512000     177292/2048000  ( 8.7%) 
+edges                26775/256000     107100/1024000  (10.5%) 
+LDR worldlights        122/8192        10736/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            630/32768        6300/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9036/65536       18072/131072   (13.8%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6074460/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       93702/393216   (23.8%) 
+LDR ambient table     3552/65536       14208/262144   ( 5.4%) 
+HDR ambient table     3552/65536       14208/262144   ( 5.4%) 
+LDR leaf ambient     26648/65536      746144/1835008  (40.7%) 
+HDR leaf ambient      3552/65536       99456/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1564     ( 0.1%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/44320    ( 0.0%) 
+pakfile               [variable]     1387875/0        ( 0.0%) 
+physics               [variable]      444884/4194304  (10.6%) 
+physics terrain       [variable]        9848/1048576  ( 0.9%) 
+
+Level flags = 0
+
+Total triangle count: 17204
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+49 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendgroundtograss007_nodetail_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendrockgroundwallforest_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (9380.00 -628.00 1627.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 4096.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11264.0 3584.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 4096.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 4096.0 1472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 3072.0 1472.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 730 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (552017 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1206 texinfos to 764
+Reduced 143 texdatas to 124 (5021 bytes to 4078)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1503874, actual size 1494414
+11 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+LoadPortals: couldn't read c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+No vis information, direct lighting only.
+7426 faces
+2808978 square feet [404492928.00 square inches]
+383 Displacements
+185996 Square Feet [26783458.00 Square Inches]
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0426 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  70/1024         3360/49152    ( 6.8%) 
+brushes               1407/8192        16884/98304    (17.2%) 
+brushsides           16245/65536      129960/524288   (24.8%) 
+planes               14842/65536      296840/1310720  (22.6%) 
+vertexes             11776/65536      141312/786432   (18.0%) 
+nodes                 3808/65536      121856/2097152  ( 5.8%) 
+texinfos               764/12288       55008/884736   ( 6.2%) 
+texdata                124/2048         3968/65536    ( 6.1%) 
+dispinfos              383/0           67408/0        ( 0.0%) 
+disp_verts           10807/0          216140/0        ( 0.0%) 
+disp_tris            14368/0           28736/0        ( 0.0%) 
+disp_lmsamples      523920/0          523920/0        ( 0.0%) 
+faces                 7426/65536      415856/3670016  (11.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4037/65536      226072/3670016  ( 6.2%) 
+leaves                3879/65536      124128/2097152  ( 5.9%) 
+leaffaces            11574/65536       23148/131072   (17.7%) 
+leafbrushes           4595/65536        9190/131072   ( 7.0%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            49733/512000     198932/2048000  ( 9.7%) 
+edges                29561/256000     118244/1024000  (11.5%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            623/32768        6230/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9033/65536       18066/131072   (13.8%) 
+cubemapsamples          13/1024          208/16384    ( 1.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7694116/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       97884/393216   (24.9%) 
+LDR ambient table     3879/65536       15516/262144   ( 5.9%) 
+HDR ambient table     3879/65536       15516/262144   ( 5.9%) 
+LDR leaf ambient     31205/65536      873740/1835008  (47.6%) 
+HDR leaf ambient      3879/65536      108612/1835008  ( 5.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1564     ( 0.1%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/46380    ( 0.0%) 
+pakfile               [variable]     1494414/0        ( 0.0%) 
+physics               [variable]      552017/4194304  (13.2%) 
+physics terrain       [variable]       87179/1048576  ( 8.3%) 
+
+Level flags = 0
+
+Total triangle count: 18610
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+59 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/nature/blendgroundtograss007_nodetail_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendrockgroundwallforest_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (0.00 896.00 64.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6144.0 2560.0 1536.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 3072.0 1536.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6144.0 1536.0 1536.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 320.0 248.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 320.0 832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 320.0 2120.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 832.0 1536.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6144.0 512.0 1536.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (124762 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 166 texinfos to 80
+Reduced 31 texdatas to 26 (931 bytes to 714)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 531087, actual size 529399
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+LoadPortals: couldn't read c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+No vis information, direct lighting only.
+979 faces
+691972 square feet [99644024.00 square inches]
+408 Displacements
+149421 Square Feet [21516714.00 Square Inches]
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                316/8192         3792/98304    ( 3.9%) 
+brushsides            7622/65536       60976/524288   (11.6%) 
+planes                9862/65536      197240/1310720  (15.0%) 
+vertexes              1652/65536       19824/786432   ( 2.5%) 
+nodes                  600/65536       19200/2097152  ( 0.9%) 
+texinfos                80/12288        5760/884736   ( 0.7%) 
+texdata                 26/2048          832/65536    ( 1.3%) 
+dispinfos              408/0           71808/0        ( 0.0%) 
+disp_verts           10200/0          204000/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_lmsamples      440640/0          440640/0        ( 0.0%) 
+faces                  979/65536       54824/3670016  ( 1.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              817/65536       45752/3670016  ( 1.2%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              633/65536        1266/131072   ( 1.0%) 
+leafbrushes            480/65536         960/131072   ( 0.7%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges             7253/512000      29012/2048000  ( 1.4%) 
+edges                 3862/256000      15448/1024000  ( 1.5%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/32768          50/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            69/65536         138/131072   ( 0.1%) 
+cubemapsamples           4/1024           64/16384    ( 0.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2102328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       15591/393216   ( 4.0%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      4811/65536      134708/1835008  ( 7.3%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4240     ( 0.0%) 
+pakfile               [variable]      529399/0        ( 0.0%) 
+physics               [variable]      124762/4194304  ( 3.0%) 
+physics terrain       [variable]       87958/1048576  ( 8.4%) 
+
+Level flags = 0
+
+Total triangle count: 2025
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 730 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (552281 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1149 texinfos to 759
+Reduced 137 texdatas to 120 (4785 bytes to 3971)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1396799, actual size 1387875
+9 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+1224 portalclusters
+3840 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 18024 visible clusters (1.46%)
+Total clusters visible: 1234529
+Average clusters visible: 1008
+Building PAS...
+Average clusters audible: 1067
+visdatasize:366674  compressed from 391680
+writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+6618 faces
+2224677 square feet [320353536.00 square inches]
+22 Displacements
+54473 Square Feet [7844210.50 Square Inches]
+6618 patches before subdivision
+166690 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 33309444, max 1685
+transfer lists: 254.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1893662, 1532363, 1494048)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(364272, 250719, 204640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(105003, 62841, 43823)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(36598, 18495, 10880)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14550, 6260, 3103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6294, 2276, 950)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2869, 868, 303)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1364, 344, 103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(666, 139, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(333, 58, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(169, 25, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(87, 11, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(45, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(13, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0944 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  70/1024         3360/49152    ( 6.8%) 
+brushes               1407/8192        16884/98304    (17.2%) 
+brushsides           16245/65536      129960/524288   (24.8%) 
+planes               14742/65536      294840/1310720  (22.5%) 
+vertexes             10296/65536      123552/786432   (15.7%) 
+nodes                 2557/65536       81824/2097152  ( 3.9%) 
+texinfos               759/12288       54648/884736   ( 6.2%) 
+texdata                120/2048         3840/65536    ( 5.9%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples      135552/0          135552/0        ( 0.0%) 
+faces                 6618/65536      370608/3670016  (10.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3650/65536      204400/3670016  ( 5.6%) 
+leaves                2628/65536       84096/2097152  ( 4.0%) 
+leaffaces            11566/65536       23132/131072   (17.6%) 
+leafbrushes           4962/65536        9924/131072   ( 7.6%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            45131/512000     180524/2048000  ( 8.8%) 
+edges                27008/256000     108032/1024000  (10.6%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            638/32768        6380/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9417/65536       18834/131072   (14.4%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6079524/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      366674/16777216 ( 2.2%) 
+entdata               [variable]       95871/393216   (24.4%) 
+LDR ambient table     2628/65536       10512/262144   ( 4.0%) 
+HDR ambient table     2628/65536       10512/262144   ( 4.0%) 
+LDR leaf ambient     16669/65536      466732/1835008  (25.4%) 
+HDR leaf ambient      2628/65536       73584/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/1564     ( 0.1%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/44484    ( 0.0%) 
+pakfile               [variable]     1387875/0        ( 0.0%) 
+physics               [variable]      552281/4194304  (13.2%) 
+physics terrain       [variable]        9848/1048576  ( 0.9%) 
+
+Level flags = 0
+
+Total triangle count: 17168
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+1 minute, 59 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 728 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (448012 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1141 texinfos to 747
+Reduced 136 texdatas to 119 (4753 bytes to 3939)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1396799, actual size 1387875
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+1376 portalclusters
+4342 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-3736.82 -2072.00 704.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 220 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (272928 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 828 texinfos to 524
+Reduced 98 texdatas to 85 (3116 bytes to 2524)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 645782, actual size 641414
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+LoadPortals: couldn't read c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+No vis information, direct lighting only.
+3297 faces
+1307390 square feet [188264288.00 square inches]
+18 Displacements
+45540 Square Feet [6557765.00 Square Inches]
+76 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0160 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  51/1024         2448/49152    ( 5.0%) 
+brushes                692/8192         8304/98304    ( 8.4%) 
+brushsides            5113/65536       40904/524288   ( 7.8%) 
+planes                3096/65536       61920/1310720  ( 4.7%) 
+vertexes              5987/65536       71844/786432   ( 9.1%) 
+nodes                 2401/65536       76832/2097152  ( 3.7%) 
+texinfos               524/12288       37728/884736   ( 4.3%) 
+texdata                 85/2048         2720/65536    ( 4.2%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts            1458/0           29160/0        ( 0.0%) 
+disp_tris             2304/0            4608/0        ( 0.0%) 
+disp_lmsamples      113152/0          113152/0        ( 0.0%) 
+faces                 3297/65536      184632/3670016  ( 5.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2122/65536      118832/3670016  ( 3.2%) 
+leaves                2453/65536       78496/2097152  ( 3.7%) 
+leaffaces             4936/65536        9872/131072   ( 7.5%) 
+leafbrushes           2210/65536        4420/131072   ( 3.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            23929/512000      95716/2048000  ( 4.7%) 
+edges                14539/256000      58156/1024000  ( 5.7%) 
+LDR worldlights         76/8192         6688/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            377/32768        3770/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5730/65536       11460/131072   ( 8.7%) 
+cubemapsamples           5/1024           80/16384    ( 0.5%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     2258104/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       60960/393216   (15.5%) 
+LDR ambient table     2453/65536        9812/262144   ( 3.7%) 
+HDR ambient table     2453/65536        9812/262144   ( 3.7%) 
+LDR leaf ambient     14024/65536      392672/1835008  (21.4%) 
+HDR leaf ambient      2453/65536       68684/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2188     ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/28720    ( 0.0%) 
+pakfile               [variable]      641414/0        ( 0.0%) 
+physics               [variable]      272928/4194304  ( 6.5%) 
+physics terrain       [variable]        7956/1048576  ( 0.8%) 
+
+Level flags = 0
+
+Total triangle count: 8777
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 728 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (553457 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1159 texinfos to 760
+Reduced 137 texdatas to 120 (4785 bytes to 3971)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1396799, actual size 1387875
+9 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+1380 portalclusters
+4346 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 728 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (553457 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1159 texinfos to 760
+Reduced 137 texdatas to 120 (4785 bytes to 3971)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1396799, actual size 1387875
+19 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+1380 portalclusters
+4346 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 25666 visible clusters (1.60%)
+Total clusters visible: 1601949
+Average clusters visible: 1160
+Building PAS...
+Average clusters audible: 1222
+visdatasize:467159  compressed from 485760
+writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+6824 faces
+2214694 square feet [318916032.00 square inches]
+22 Displacements
+54473 Square Feet [7844210.50 Square Inches]
+6824 patches before subdivision
+167468 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1....2...3...4...5...6...7...8...9...10transfers 35043487, max 1759
+transfer lists: 267.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1911758, 1548920, 1511266)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(367505, 253179, 206819)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(105487, 63185, 44097)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(36678, 18549, 10919)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14564, 6269, 3110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6297, 2278, 951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2870, 868, 304)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1364, 344, 104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(666, 139, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(333, 58, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(169, 25, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(87, 11, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(45, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(13, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0663 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  70/1024         3360/49152    ( 6.8%) 
+brushes               1410/8192        16920/98304    (17.2%) 
+brushsides           16263/65536      130104/524288   (24.8%) 
+planes               14756/65536      295120/1310720  (22.5%) 
+vertexes             10472/65536      125664/786432   (16.0%) 
+nodes                 2783/65536       89056/2097152  ( 4.2%) 
+texinfos               760/12288       54720/884736   ( 6.2%) 
+texdata                120/2048         3840/65536    ( 5.9%) 
+dispinfos               22/0            3872/0        ( 0.0%) 
+disp_verts            1782/0           35640/0        ( 0.0%) 
+disp_tris             2816/0            5632/0        ( 0.0%) 
+disp_lmsamples      135552/0          135552/0        ( 0.0%) 
+faces                 6824/65536      382144/3670016  (10.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3650/65536      204400/3670016  ( 5.6%) 
+leaves                2854/65536       91328/2097152  ( 4.4%) 
+leaffaces            12273/65536       24546/131072   (18.7%) 
+leafbrushes           5250/65536       10500/131072   ( 8.0%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            46185/512000     184740/2048000  ( 9.0%) 
+edges                27360/256000     109440/1024000  (10.7%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            642/32768        6420/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9573/65536       19146/131072   (14.6%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6039312/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      467159/16777216 ( 2.8%) 
+entdata               [variable]       95875/393216   (24.4%) 
+LDR ambient table     2854/65536       11416/262144   ( 4.4%) 
+HDR ambient table     2854/65536       11416/262144   ( 4.4%) 
+LDR leaf ambient     18647/65536      522116/1835008  (28.5%) 
+HDR leaf ambient      2854/65536       79912/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/2188     ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/44750    ( 0.0%) 
+pakfile               [variable]     1387875/0        ( 0.0%) 
+physics               [variable]      553457/4194304  (13.2%) 
+physics terrain       [variable]        9848/1048576  ( 0.9%) 
+
+Level flags = 0
+
+Total triangle count: 17805
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+3 minutes, 36 seconds elapsed
+6..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/trade_ngs_day/booster_pak/blend_leaves_dirt_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendgroundtograss007_nodetail_wvt_patch
+Patching WVT material: maps/trade_ngs_day/nature/blendrockgroundwallforest_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 728 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_hydro_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (553849 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1200 texinfos to 764
+Reduced 142 texdatas to 123 (5005 bytes to 4062)
+Writing C:\Users\dylan\Downloads\trademap-master\trade_ngs_day.bsp
+Wrote ZIP buffer, estimated size 1397977, actual size 1388785
+26 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+reading c:\users\dylan\downloads\trademap-master\trade_ngs_day.prt
+1380 portalclusters
+4346 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 25666 visible clusters (1.60%)
+Total clusters visible: 1601949
+Average clusters visible: 1160
+Building PAS...
+Average clusters audible: 1222
+visdatasize:468983  compressed from 485760
+writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+6932 faces
+2214694 square feet [318916032.00 square inches]
+117 Displacements
+90354 Square Feet [13011053.00 Square Inches]
+6932 patches before subdivision
+169498 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 35066611, max 1762
+transfer lists: 267.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1909849, 1547302, 1509583)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(367217, 252959, 206601)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(105448, 63155, 44067)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(36667, 18540, 10910)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14561, 6266, 3107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6294, 2276, 949)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2869, 867, 303)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1364, 343, 103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(666, 139, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(333, 58, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(169, 25, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(87, 11, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(45, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(12, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1090 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  70/1024         3360/49152    ( 6.8%) 
+brushes               1411/8192        16932/98304    (17.2%) 
+brushsides           16269/65536      130152/524288   (24.8%) 
+planes               14802/65536      296040/1310720  (22.6%) 
+vertexes             10583/65536      126996/786432   (16.1%) 
+nodes                 2785/65536       89120/2097152  ( 4.2%) 
+texinfos               764/12288       55008/884736   ( 6.2%) 
+texdata                123/2048         3936/65536    ( 6.0%) 
+dispinfos              117/0           20592/0        ( 0.0%) 
+disp_verts            4157/0           83140/0        ( 0.0%) 
+disp_tris             5856/0           11712/0        ( 0.0%) 
+disp_lmsamples      240528/0          240528/0        ( 0.0%) 
+faces                 6932/65536      388192/3670016  (10.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3745/65536      209720/3670016  ( 5.7%) 
+leaves                2856/65536       91392/2097152  ( 4.4%) 
+leaffaces            11976/65536       23952/131072   (18.3%) 
+leafbrushes           5247/65536       10494/131072   ( 8.0%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            46954/512000     187816/2048000  ( 9.2%) 
+edges                27796/256000     111184/1024000  (10.9%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            5/32768          60/393216   ( 0.0%) 
+waterstrips            618/32768        6180/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9231/65536       18462/131072   (14.1%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6459572/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      468983/16777216 ( 2.8%) 
+entdata               [variable]       95875/393216   (24.4%) 
+LDR ambient table     2856/65536       11424/262144   ( 4.4%) 
+HDR ambient table     2856/65536       11424/262144   ( 4.4%) 
+LDR leaf ambient     18763/65536      525364/1835008  (28.6%) 
+HDR leaf ambient      2856/65536       79968/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/192      ( 0.5%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/47564    ( 0.0%) 
+pakfile               [variable]     1388785/0        ( 0.0%) 
+physics               [variable]      553849/4194304  (13.2%) 
+physics terrain       [variable]       29989/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 17978
+Writing c:\users\dylan\downloads\trademap-master\trade_ngs_day.bsp
+3 minutes, 36 seconds elapsed
