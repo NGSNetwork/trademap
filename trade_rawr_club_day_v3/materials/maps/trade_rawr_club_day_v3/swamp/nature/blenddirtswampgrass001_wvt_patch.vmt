@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"Nature/dirtground010"
+	"%tooltexture"		"Swamp/nature/swampgrass002-tooltexture"
+	"%keywords"		"tf"
+	"%detailtype"		"tf_swamp_grass"
+	"$ssbump"		"1"
+	"$surfaceprop"		"dirt"
+}

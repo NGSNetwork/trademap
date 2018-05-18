@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "glass/glasswindow006a"
+	"$surfaceprop" "glass"
+	"$alphatest" 1 
+	"$nocull" 1
+	"%keywords" "tf"
+}
