@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "rawr/calvin-and-hobbes"
+	"$surfaceprop" "Glass"
+	$nodecal 1
+}

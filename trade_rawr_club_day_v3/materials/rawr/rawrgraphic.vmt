@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "rawr/rawrgraphic"
+	"$surfaceprop" "Snow"
+	"%keywords" "rawr"
+	"$nocull" 1
+	$nodecal 1
+}
