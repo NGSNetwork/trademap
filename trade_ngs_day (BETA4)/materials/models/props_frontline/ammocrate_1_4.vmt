@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_frontline/ammocrate_1_4"
+	"$bumpmap" "models/props_frontline/ammocrate_1_n"
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" ".3"	
+	"$phongfresnelranges"	"[2 1 .8]"
+}

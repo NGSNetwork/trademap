@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "rawr/rules"
+	"$surfaceprop" "Glass"
+	$nodecal 1
+}

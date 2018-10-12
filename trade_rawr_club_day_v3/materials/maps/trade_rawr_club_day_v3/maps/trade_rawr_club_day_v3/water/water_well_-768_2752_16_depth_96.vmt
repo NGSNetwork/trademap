@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/trade_rawr_club_day_v3/water/water_well_-768_2752_16.vmt"
+	"insert"
+	{
+		"$waterdepth"		"96"
+	}
+}

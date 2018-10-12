@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "rawr/logo_small"
+	"$translucent" 1
+	$nodecal 1
+}

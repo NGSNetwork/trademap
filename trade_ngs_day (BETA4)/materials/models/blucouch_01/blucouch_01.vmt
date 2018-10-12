@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/blucouch_01/blucouch_01"
+	"$bumpmap" "models/blucouch_01/blucouch_01_normal"
+	"$bumpscale" "1"
+	"$normalmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"	
+}
+

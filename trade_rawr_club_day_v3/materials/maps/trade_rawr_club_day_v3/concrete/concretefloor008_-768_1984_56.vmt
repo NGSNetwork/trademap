@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/CONCRETE/CONCRETEFLOOR008.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/trade_rawr_club_day_v3/c-768_1984_56"
+	}
+}

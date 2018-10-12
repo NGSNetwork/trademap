@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_overgrown/restochair_001"
+	"$bumpmap" "models\props_overgrown/restochair_001_n" 
+
+	"$phong" "1"	
+	"$nodecal" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "30"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"	
+}

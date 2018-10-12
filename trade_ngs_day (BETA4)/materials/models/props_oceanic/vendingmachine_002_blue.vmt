@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_oceanic/vendingmachine_002_blue"
+                "$model"          "1"
+}

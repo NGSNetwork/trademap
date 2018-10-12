@@ -1,0 +1,41 @@
+"Refract"
+{
+
+	"%keywords" "tf"
+	
+	"$model" "1"
+	"%tooltexture" "dev/tfwater_normal"
+
+	"$envmap" "env_cubemap"	
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" ".05"
+	"$refracttint" "[.58 .69 .58]"
+	"$refractblur" "1"
+	"$nodecal" "1"
+	
+	"$scale" "[1 1]"
+
+	"$normalmap" "water/tfwater001_normal"
+
+	"$surfaceprop" "water"
+	"$bumpframe" "0"
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .15
+			"texturescrollangle" 170.00
+		}
+	}
+}
