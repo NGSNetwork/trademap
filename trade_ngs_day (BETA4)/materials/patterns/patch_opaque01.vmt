@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$surfaceprop" "default"
+	
+	"$basealphaenvmapmask" "1"
+	"$envmap" "cubemaps/cubemap_specular002"
+	"$envmaptint" "[.05 .05 .05]"
+	
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
+	"%keywords" "pattern,skin,paint,warpaint"
+}

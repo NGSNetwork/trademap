@@ -1,0 +1,9 @@
+"Patch"
+{
+	"Include" "materials/patterns/patch_opaque01.vmt"
+	"Insert"
+	{
+		"$basetexture" "patterns/autumn/autumn_yellow"
+		"$surfaceprop" "metal"
+	}
+}

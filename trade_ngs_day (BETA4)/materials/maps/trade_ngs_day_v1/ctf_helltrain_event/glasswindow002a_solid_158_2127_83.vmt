@@ -1,0 +1,8 @@
+"Patch"
+{
+	"Include"		"materials/CTF_HELLTRAIN_EVENT/GLASSWINDOW002A_SOLID.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/trade_ngs_day_v1/c158_2127_83"
+	}
+}

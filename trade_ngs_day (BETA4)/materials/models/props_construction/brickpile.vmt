@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_construction/brickpile"
+	"$bumpmap" "models/effects/flat_normal" 
+	"$detail" "overlays/detail001"
+	"$detailscale" "5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2.5"
+
+	"$surfaceprop" "Brick"
+
+	"$phong" "0"
+	"$phongexponent" "0"
+	"$phongboost" ".0"
+	"$phongfresnelranges"	"[1 9 12]"
+}

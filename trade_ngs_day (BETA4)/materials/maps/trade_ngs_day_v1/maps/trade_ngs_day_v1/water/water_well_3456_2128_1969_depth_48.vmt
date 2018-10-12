@@ -1,0 +1,8 @@
+"Patch"
+{
+	"Include"		"materials/maps/trade_ngs_day_v1/water/water_well_3456_2128_1969.vmt"
+	"Insert"
+	{
+		"$waterdepth"		"48"
+	}
+}

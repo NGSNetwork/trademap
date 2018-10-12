@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/apocmodels/SonicGenerations/Emeralds/event_rock_km_emerald02_dif"
+	"$bumpmap"				"models/apocmodels/SonicGenerations/Emeralds/event_rock_km_emerald02_nrm"
+	"$envmap"				"models/apocmodels/SonicGenerations/Emeralds_Generations/event_rock_km_emeraldBG01_ref"
+
+	"$phong"				"1"
+	"$phongexponent"		"21"
+	"$phongboost"			"10"
+	"$phongfresnelranges"	"[.1 1 8]"
+
+	"$rimlight"				"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"2"
+}

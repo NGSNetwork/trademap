@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_overgrown/bottles_001a"
+	"$bumpmap" "models\props_overgrown/bottles_001_n"
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "30"
+	"$phongfresnelranges"	"[0 0.5 1]"
+		
+	
+}
+

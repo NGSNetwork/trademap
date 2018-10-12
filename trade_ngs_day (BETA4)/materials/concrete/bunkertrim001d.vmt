@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	"$basetexture"	"concrete\bunkertrim001d"
+                "$bumpmap" "concrete\bunkertrim001_height-ssbump"
+                "$ssbump" "1"
+	"$surfaceprop" "concrete"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"%keywords" "tf, frontline"
+}

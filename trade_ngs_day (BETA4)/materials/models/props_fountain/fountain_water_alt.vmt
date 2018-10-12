@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_fountain\fountain_water_alt"
+	"$translucent" "1"
+	
+	"$envmap" "cubemaps/cubemap_sheen002"   // wet look
+	
+  "$envmaptint" "[.5 .45 .3]"
+  //"$envmapmask" "models\props_fountain\fountain_water_envmask"
+	"$normalmap" "water/tfwater001_normal"
+}

@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_fountain\fountain_metal"
+	
+	// envmap possibilities:
+	
+	//"$envmap" "cubemaps/cubemap_gold001"    // shiny gold
+	//"$envmap" "cubemaps/cubemap_sheen001"   // subtle
+	//"$envmap" "cubemaps/cubemap_sheen002"   // wet look
+	//"$envmap" "cubemaps/cubemap_specular001"  // brings out details
+	"$envmap" "cubemaps/cubemap_specular002"  // stronger sheen than 001
+	//"$envmap" "cubemaps/cubemap_sunset001"  // banded sunset (not too useful?)
+	
+  "$envmaptint" "[.5 .45 .3]"
+  "$envmapmask" "models\props_fountain\fountain_metal_envmask"
+}
