@@ -1,0 +1,8 @@
+"Patch"
+{
+	"Include" "materials/patterns/patch_overlay01.vmt"
+	"Insert"
+	{
+		"$basetexture" "patterns/combat/sticker_messerschmitt"
+	}
+}

@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_arctic/shelf_unit/shelf_clutter"
+
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "0.1"	
+	"$rimlightboost" "0.1"
+}

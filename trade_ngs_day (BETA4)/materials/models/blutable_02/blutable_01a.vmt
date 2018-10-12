@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\blutable_02/blutable_01"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"	
+	"$envmaptint" "[.20 .20 .20]"
+	"$envmap" "env_cubemap"
+}
+	

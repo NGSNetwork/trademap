@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+
+{
+	"$basetexture" "custom/precipice/canvas_red"
+	"$model" 1
+	"$surfaceprop" "carpet"
+	"$bumpmap" "custom/precipice/canvas_normal"
+}

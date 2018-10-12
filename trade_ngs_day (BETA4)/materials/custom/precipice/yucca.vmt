@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "custom/precipice/yucca_color"
+	"$model" 1
+	"$surfaceprop" "foliage"
+}

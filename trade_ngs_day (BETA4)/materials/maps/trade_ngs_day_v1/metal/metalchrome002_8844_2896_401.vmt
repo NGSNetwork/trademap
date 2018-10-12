@@ -1,0 +1,8 @@
+"Patch"
+{
+	"Include"		"materials/METAL/METALCHROME002.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/trade_ngs_day_v1/c8844_2896_401"
+	}
+}
