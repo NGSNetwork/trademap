@@ -1,8 +1,0 @@
-"worldvertextransition"
-{
-"$basetexture" "booster_pak/leaves"
-"$basetexture2" "booster_pak/good_dirt"
-"$surfaceprop" "grass"
-"$surfaceprop2" "dirt"
-"%tooltexture" "booster_pak/leaves"
-}
