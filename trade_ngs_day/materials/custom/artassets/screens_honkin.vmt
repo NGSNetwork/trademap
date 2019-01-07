@@ -1,0 +1,20 @@
+UnlitGeneric
+{
+	"$basetexture" "custom/artassets/screens_honkin"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[0.25 0.25 0.25]"
+	"$nocull" 1
+	"$selfillum" 1
+	$nodecal "1"
+	"$surfaceprop" "glass"	
+	Proxies
+	{
+		ToggleTexture
+		{
+			toggleTextureVar $baseTexture
+			toggleTextureFrameNumVar $frame
+			toggleTextureShouldWrap 0
+		}
+	}
+}
