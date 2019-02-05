@@ -1,8 +1,0 @@
-"Patch"
-{
-	"Include"		"materials/TILE/FLOOR_TILE_005B.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/trade_ngs_day_v1/c1512_3499_259"
-	}
-}

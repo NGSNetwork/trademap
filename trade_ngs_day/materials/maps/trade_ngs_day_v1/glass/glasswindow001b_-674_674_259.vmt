@@ -1,8 +1,0 @@
-"Patch"
-{
-	"Include"		"materials/GLASS/GLASSWINDOW001B.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/trade_ngs_day_v1/c-674_674_259"
-	}
-}
