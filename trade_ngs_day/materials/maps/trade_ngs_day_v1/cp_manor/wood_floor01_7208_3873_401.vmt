@@ -1,8 +1,0 @@
-"Patch"
-{
-	"Include"		"materials/CP_MANOR/WOOD_FLOOR01.vmt"
-	"replace"
-	{
-		"$envmap"		"maps/trade_ngs_day_v1/c7208_3873_401"
-	}
-}
