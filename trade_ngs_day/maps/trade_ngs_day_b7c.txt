@@ -1,0 +1,2 @@
+Halved the number of art displays.
+Edited nav file.

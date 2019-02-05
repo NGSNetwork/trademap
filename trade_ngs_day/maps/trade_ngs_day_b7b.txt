@@ -1,8 +1,0 @@
-Fixed glass door handles.
-Rotated BLU logo in blue spawn.
-Replaced overlays broken in segmenting func_detail.
-Changed statue clip brush to block bullets.
-Skybox improvements.
-User Art Displays
-Fixed taunt displays.
-Cubemap Optimizations.
