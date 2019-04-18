@@ -1,0 +1,11 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "custom/artassets/mapdrive"
+	"$envmap" "cubemaps/cubemap_gold001"	
+	//$envmapmask "custom/artassets/mapdriveenvmap"
+	"envmaptint" "[1.5 1.5 2.15]"
+	$bumpmap "custom/artassets/mapdrivebump"
+	$ssbump 1	
+	$surfaceprop	metal
+	$normalmapalphaenvmapmask	 1
+}
