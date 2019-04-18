@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "custom/artassets/greentrack"
+	"$surfaceprop" "Slime"
+	"$additive" 1
+	"$nocull" 1
+	"$nodecal" 1
+	"$translucent" 1
+}
