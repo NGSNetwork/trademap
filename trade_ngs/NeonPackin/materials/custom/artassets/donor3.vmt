@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "custom/artassets/donor3"
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"envmaptint" "[2.5 2.5 1.15]"
+	$bumpmap "custom/artassets/donor3bump"
+	$ssbump 1	
+	$surfaceprop	metal
+	$normalmapalphaenvmapmask	 1
+}
