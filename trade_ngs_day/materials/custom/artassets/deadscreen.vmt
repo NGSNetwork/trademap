@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "custom/artassets/screens"
-	"$envmap" "env_cubemap"
-	"$basealphaenvmapmask" 1
-	"$envmaptint" "[0.25 0.25 0.25]"
-	"$surfaceprop" "plastic"
-	"%keywords" "tf"
-}
