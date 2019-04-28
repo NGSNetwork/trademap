@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture" "custom/artassets/artcontest"
+	"$nocull" 1
+	$nodecal "1"
+	"$surfaceprop" "glass"	
+}
