@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+ "$basetexture" "vgui\maps\menu_photos_trade_ngs_night_b8a"
+ "$translucent" 1
+ "$ignorez" 1
+ "$vertexcolor" 1
+}
