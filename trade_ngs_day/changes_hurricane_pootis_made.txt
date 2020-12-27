@@ -1,0 +1,8 @@
+trade_ngs_day:
+Mapped the teleports from the old museum to the spycrab room
+Mapped the teleports to the secret room in the spycrab room to the main exits (tp2_red, tp2_blue)
+
+Deleted the old museum
+Deleted most of the new museum, keeping the credits room
+Capped of the credit room to avoid t h e  v o i d with no draw brushes
+Added said no draw brushes to the "On - New Musuem" visgroup
