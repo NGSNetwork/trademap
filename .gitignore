@@ -3,4 +3,4 @@
 *.vmx
 *.log
 *.prt
-*.bsp
+# *.bsp
