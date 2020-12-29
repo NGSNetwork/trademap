@@ -1,6 +1,0 @@
-Welcome to Nite Mode
-
-*Reduced number of healthpacks on picnic tables to one.
-*Simplified areaportals.
-*Removed effect displays in museum
-*Reduced playable area outdoors
