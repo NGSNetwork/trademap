@@ -1,2 +1,7 @@
 # Compiled stuff
 *.vhv
+*.vmx
+*.log
+*.prt
+*.bsp
+currentchanges.txt
